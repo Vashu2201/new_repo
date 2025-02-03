@@ -2,8 +2,8 @@
 const ContactPage = () => {
     return (
         <>
-            <div style={{display: 'flex', margin: '10px'}}>
-            <div className="p-5" style={{width: '330px', justifyContent: 'center', alignItems: 'center'}}>
+            <header style={{display: 'flex', margin: '10px'}}>
+                <div className="p-5" style={{width: '330px', justifyContent: 'center', alignItems: 'center'}}>
                     <h1 className="text-center">List_01</h1>
                     <ul className="justify-content-center mt-3" style={{ padding: 0, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
                         <li>Item 1</li>
@@ -47,7 +47,7 @@ const ContactPage = () => {
                         </p>
                     </div>
                 </div>
-            </div>
+            </header>
             
             <footer className="text-center mt-2" style={{background: '#d9cccc', padding: '1px'}}>
                 <h2> &copy; microinfotech.com</h2>
