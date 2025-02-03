@@ -2,7 +2,7 @@
 const ServicePage = () => {
     return (
         <>
-            <section style={{display: 'flex'}} className="">
+            <header style={{display: 'flex'}} className="">
                 <div className="p-5" style={{width: '330px', justifyContent: 'center', alignItems: 'center'}}>
                     <h1 className="text-center">List_01</h1>
                     <ul className="justify-content-center mt-3" style={{ padding: 0, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'}}>
@@ -46,7 +46,7 @@ const ServicePage = () => {
                         PageMaker including versions of Lorem Ipsum.PageMaker including versions of Lorem Ipsum,.
                     </p>
                 </div>
-            </section>
+            </header>
             
             <footer className="text-center" style={{background: '#d9cccc', padding: '1px'}}>
                 <h2> &copy; microinfotech.com</h2>
