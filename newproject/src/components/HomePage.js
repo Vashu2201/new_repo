@@ -2,7 +2,7 @@
 const HomePage = () => {
     return(
         <>
-            <section className="m-0 d-flex">
+            <header className="m-0 d-flex">
                 <div className="m-2">
                     <img style={{width: '790px', height: '680px'}}  src="/hello.jpg" alt="heart" />
                 </div>
@@ -15,7 +15,7 @@ const HomePage = () => {
                         Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC,.
                     </p>
                 </div>
-            </section>
+            </header>
             
             <footer className="text-center" style={{background: '#d9cccc', padding:'1px'}}>
                 <h2> &copy; microinfotech.com</h2>
