@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+body {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+} 
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.nav-link:hover {
+  background-color: grey;
+}
+.nav-link{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.lorem-ipsum {
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 1.6; /* Increases space between lines */
+  text-align: justify; /* Distributes text evenly across the width */
+  padding: 4px; /* Adds space inside the element around the text */
+  margin: 20px auto; /* Centers the element and adds space outside */
+  max-width: 800px; /* Limits the width of the paragraph */
+  border-radius: 8px; /* Rounds the corners of the element */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+}
+
+h1{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Responsive CSS */
+
+/* Mobile devices (max-width: 768px) */
+@media only screen and (max-width: 768px) {
+  div[style*="display: flex"] {
+    flex-direction: column;
+  }
+  div[style*="width: 50%"] {
+    width: 100%;
+  }
+  div[style*="border-left: none"] {
+    border-left: 1px solid grey;
+  }
+}
+
+/* Tablet devices (max-width: 1024px) */
+@media only screen and (max-width: 1024px) {
+  div[style*="display: flex"] {
+    flex-direction: row;
+  }
+  div[style*="width: 50%"] {
+    width: 50%;
+  }
+  div[style*="border-left: none"] {
+    border-left: none;
+  }
+}
+
+/* Desktop devices (min-width: 1025px) */
+@media only screen and (min-width: 1025px) {
+  div[style*="display: flex"] {
+    flex-direction: row;
+  }
+  div[style*="width: 50%"] {
+    width: 50%;
+  }
+  div[style*="border-left: none"] {
+    border-left: none;
+  }
+}
+@media (max-width: 768px) {
+  section.d-flex {
+      flex-direction: column;
+  }
+
+  section.d-flex article,
+  section.d-flex aside {
+      margin: 0 auto;
+      width: 100%;
+  }
+}
